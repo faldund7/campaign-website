@@ -24,7 +24,7 @@ function Nav() {
             <div className={`nav ${show && 'nav__black'}`}>
                 <div className='nav__contents'>
                     <img className='nav__logo'
-                        src='https://cloudfront-us-east-1.images.arcpublishing.com/gray/3HCWZMP7PFGY3OJJPFHIX5O2VI.png' 
+                        src='../images/logo.png' 
                         alt='Netlfix Logo'
                     />
 
