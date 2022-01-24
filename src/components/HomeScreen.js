@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './Nav.js';
 import Banner from './Banner.js';
+import Row from './Row.js'
 
 function HomeScreen() {
   return (
@@ -10,6 +11,17 @@ function HomeScreen() {
             {/* Banner */}
             <Banner/>
             {/* Row */}
+            <Row
+            title="Meet Your Candidates"
+            isLargeRow
+            />
+            <Row title="Trending Now"/>
+            <Row title="Top Rated"/>
+            <Row title="Action Movies" />
+            <Row title="Comedy Movies" />
+            <Row title="Horror Movies" />
+            <Row title="Romance Movies" />
+            <Row title="Documentaries" />
         </div>
     );
 }
