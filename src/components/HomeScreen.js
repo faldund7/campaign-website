@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './Nav.js';
+import Banner from './Banner.js';
 
 function HomeScreen() {
   return (
@@ -7,6 +8,7 @@ function HomeScreen() {
             {/* Nav */}
             <Nav/>
             {/* Banner */}
+            <Banner/>
             {/* Row */}
         </div>
     );
