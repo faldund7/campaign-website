@@ -15,7 +15,7 @@ function HomeScreen() {
             title="Meet Your Candidates"
             isLargeRow
             />
-            <Row title="Trending Now"/>
+            <Row title="What We Stand For"/>
             <Row title="Top Rated"/>
             <Row title="Action Movies" />
             <Row title="Comedy Movies" />
