@@ -30,25 +30,22 @@ function Banner() {
              backgroundImage: `url(
               "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
          )`,
-         background: `url(
-             "https://youtu.be/siyBp8Csugk"
-        )`,
         backgroundPosition: "center center",
       }}
     >
         {/* <div>
-             <video autoPlay muted id="bgVideo">
+             <video loop autoPlay muted id="bgVideo">
                  <source src={require('../images/CallForSubmissionPost_2.mp4')} type="video/mp4"/>
              </video>
-         </div> */}
+        </div> */}
          <div className="banner__contents">
              <h1 className="banner__title">
-           {movie?.title || movie?.name || movie?.original_name}
+           BADDAM AND GLUKOSE
              </h1>
             
          <div className="banner__buttons">
            <button className="banner__button">Play</button>
-           <button className="banner__button">My List</button>
+           {/* <button className="banner__button">My List</button> */}
          </div>
 
          <h1 className="banner__description">
