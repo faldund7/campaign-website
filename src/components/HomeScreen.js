@@ -16,12 +16,8 @@ function HomeScreen() {
             isLargeRow
             />
             <Row title="What We Stand For"/>
-            <Row title="Top Rated"/>
-            <Row title="Action Movies" />
-            <Row title="Comedy Movies" />
-            <Row title="Horror Movies" />
-            <Row title="Romance Movies" />
-            <Row title="Documentaries" />
+            <Row title="Platform"/>
+            <Row title="Our Team" />
         </div>
     );
 }
