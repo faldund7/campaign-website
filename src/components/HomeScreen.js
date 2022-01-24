@@ -15,9 +15,9 @@ function HomeScreen() {
             title="Meet Your Candidates"
             isLargeRow
             />
-            <Row title="What We Stand For"/>
+            {/* <Row title="What We Stand For"/>
             <Row title="Platform"/>
-            <Row title="Our Team" />
+            <Row title="Our Team" /> */}
         </div>
     );
 }

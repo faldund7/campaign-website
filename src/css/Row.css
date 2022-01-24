@@ -30,6 +30,7 @@
 
 .row__posterLarge {
     max-height: 250px;
+    max-width: 250px;
 }
 
 .row__posterLarge:hover {
