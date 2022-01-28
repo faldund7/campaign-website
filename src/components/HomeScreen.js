@@ -21,12 +21,15 @@ function HomeScreen() {
             data={candidatesData}
             />
             <Row title="What We Stand For"
+            isLargeRow
             data={whatWeStandForData}
             />
             <Row title="Platform"
+            isLargeRow
             data={platformData}
             />
             <Row title="Our Team" 
+            isLargeRow
             data={teamData}
             />
         </div>

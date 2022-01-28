@@ -41,7 +41,6 @@ function Row({ title, isLargeRow = false, data }) {
                             className={`row__poster ${isLargeRow && "row__posterLarge"}`}
                             key={value.id}
                             src={`${value.url}`} alt={value.name}
-                            onMouseOut={setImage} onMouseOver={setVideo}
                         />
                         )
                 )}
