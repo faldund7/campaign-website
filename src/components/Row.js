@@ -21,6 +21,14 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
     // }, [fetchUrl]);
 
     // console.log(movies);
+    const setVideo = function(){
+        // alert();
+        document.getElementById('img2').src = 'https://www.w3schools.com/tags/movie.mp4'
+    }
+
+    const setImage = function(){
+        // alert();
+    }
 
     return (
         <div className='row'>
@@ -29,9 +37,11 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
                 {data.map((value) => 
                     isLargeRow && (
                         <img 
+                            id={`img${value.id}`}
                             className={`row__poster ${isLargeRow && "row__posterLarge"}`}
                             key={value.id}
                             src={`${value.url}`} alt={value.name}
+                            onMouseOut={setImage} onMouseOver={setVideo}
                         />
                         )
                 )}
