@@ -1,11 +1,11 @@
 import React from 'react';
 import '../css/Row.css';
-import {  useState, useEffect } from 'react';
-import data from './data.js';
+// import {  useState, useEffect } from 'react';
+// import data from './candidatesData.js';
 // import axios from 'axios';
 
-function Row({ title, fetchUrl, isLargeRow = false }) {
-    const [movies, setMovies] = useState([]);
+function Row({ title, isLargeRow = false, data }) {
+    // const [movies, setMovies] = useState([]);
 
     // const base_url = "https://image.tmdb.org/t/p/original/";
 
@@ -23,7 +23,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
     // console.log(movies);
     const setVideo = function(){
         // alert();
-        document.getElementById('img2').src = 'https://www.w3schools.com/tags/movie.mp4'
+        // document.getElementById('img2').src = 'https://www.w3schools.com/tags/movie.mp4'
     }
 
     const setImage = function(){
@@ -37,7 +37,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
                 {data.map((value) => 
                     isLargeRow && (
                         <img 
-                            id={`img${value.id}`}
+                            // id={`img${value.id}`}
                             className={`row__poster ${isLargeRow && "row__posterLarge"}`}
                             key={value.id}
                             src={`${value.url}`} alt={value.name}
