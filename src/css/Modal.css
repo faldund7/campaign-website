@@ -1,0 +1,20 @@
+.previewModal--info {
+    background-color: #181818;
+    position: relative;
+}
+
+.details-modal-container {
+    padding: 0 3em;
+}
+
+.previewModal--detailsMetadata.detail-modal {
+    grid-template-columns: minmax(0, 2fr);
+    column-gap: 2em;
+}
+
+.previewModal--detailsMetadata {
+    position: relative;
+    width: 100%;
+    background-color: #181818;
+    display: grid;
+}
