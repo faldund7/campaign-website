@@ -20,16 +20,6 @@ function Row({ title, isLargeRow = false, data }) {
     //     fetchData();
     // }, [fetchUrl]);
 
-    // console.log(movies);
-    const setVideo = function(){
-        // alert();
-        // document.getElementById('img2').src = 'https://www.w3schools.com/tags/movie.mp4'
-    }
-
-    const setImage = function(){
-        // alert();
-    }
-
     return (
         <div className='row'>
             <h2>{title}</h2>
@@ -37,7 +27,7 @@ function Row({ title, isLargeRow = false, data }) {
                 {data.map((value) => 
                     isLargeRow && (
                         <img 
-                            // id={`img${value.id}`}
+                            id={`img${value.id}`}
                             className={`row__poster ${isLargeRow && "row__posterLarge"}`}
                             key={value.id}
                             src={`${value.url}`} alt={value.name}
