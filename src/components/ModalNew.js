@@ -16,7 +16,7 @@ function ModalNew() {
                         // 1. className={`Modal__overlay ${modalClosed && 'Modal__invisible'}`}
 					>
 						<div
-							key="modal"
+							// key="modal"
 							// variants={modalVariants}
 							// ref={modalRef}
                             className={`Modal__wrp`}
@@ -56,9 +56,9 @@ function ModalNew() {
 								<p 
 								// variants={modalFadeInUpVariants} 
 								className="Modal__info--description">Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.</p>
-								<hr 
+								{/* <hr 
 								// variants={modalFadeInUpVariants} 
-								className="Modal__info--line"/>
+								className="Modal__info--line"/> */}
 							</div>
 						</div>
 					</div>
