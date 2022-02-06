@@ -1,11 +1,22 @@
 import React from 'react';
+import { motion, AnimatePresence } from "framer-motion";
 
 function Modal() {
     return(
-        <div className='previewModal--info' style={{opacity:1, transform: 'none'}}>
-            <div className='detail-modal-container'>
-                <div className='previewModal--detailsMetadata detail-modal has-smaller-buttons' data-uia='previewModal--detailsMetadata' ></div>
-            </div>
+        <div>
+            <AnimatePresence exitbeforeEnter>
+                <>
+                    <motion.div
+                        variants={modalOverlayVariants}
+						initial="hidden"
+						animate="visible"
+						exit="hidden"
+						key="modalOverlay"
+						className={`Modal__overlay ${modalClosed && 'Modal__invisible'}`}>
+
+                    </motion.div>
+                </>
+            </AnimatePresence>
         </div>
     ); 
 }
