@@ -6,6 +6,7 @@ import candidatesData from './candidatesData.js';
 import whatWeStandForData from './whatWeStandForData.js';
 import platformData from './platformData.js';
 import teamData from './teamData.js'
+import Modal from './Modal.js';
 
 function HomeScreen() {
   return (

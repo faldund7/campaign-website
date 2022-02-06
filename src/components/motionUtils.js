@@ -1,3 +1,5 @@
+export const defaultEasing = [0.6, -0.05, 0.01, 0.99];
+
 export const modalOverlayVariants = {
 	hidden: { opacity: 0, transition: { duration: .2, delay: .2 } },
 	visible: { opacity: 1, transition: { duration: .2 } }
