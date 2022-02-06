@@ -8,31 +8,29 @@ import { Link } from "react-router-dom";
 
 
 function Modal() {
-    return(
-        <div>
-            
-		<AnimatePresence exitBeforeEnter>
-			{!modalClosed && (
-				<>
+    return( 
+				<div>
 					<motion.div
 						variants={modalOverlayVariants}
 						initial="hidden"
 						animate="visible"
 						exit="hidden"
 						key="modalOverlay"
-						className={`Modal__overlay ${modalClosed && 'Modal__invisible'}`}
+						className={`Modal__overlay`}
+                        // 1. className={`Modal__overlay ${modalClosed && 'Modal__invisible'}`}
 					>
 						<motion.div
 							key="modal"
 							variants={modalVariants}
-							ref={modalRef}
-							className={`Modal__wrp ${modalClosed && 'Modal__invisible'}`}
+							// ref={modalRef}
+                            className={`Modal__wrp`}
+							// 2. className={`Modal__wrp ${modalClosed && 'Modal__invisible'}`}
 						>
 							<motion.button
 								className="Modal__closebtn"
-								onClick={handleModalClose}
+								// onClick={handleModalClose}
 							>
-								<VscChromeClose />
+								{/* <VscChromeClose /> */}
 							</motion.button>
 							<div className="Modal__image--wrp">
 								<div className="Modal__image--shadow" />
@@ -50,16 +48,6 @@ function Modal() {
 										<FaPlay />
 										<span>Play</span>
 									</Link>
-									{/* {!isFavourite
-										? (
-											<button className='Modal__image--button-circular' onClick={handleAdd}>
-												<FaPlus />
-											</button>
-										): (
-											<button className='Modal__image--button-circular' onClick={handleRemove}>
-												<FaMinus />
-											</button>
-										)} */}
 								</div>
 							</div>
 							<motion.div variants={staggerOne} initial="initial" animate="animate" exit="exit" className="Modal__info--wrp">
@@ -69,10 +57,7 @@ function Modal() {
 							</motion.div>
 						</motion.div>
 					</motion.div>
-				</>
-			)}
-		</AnimatePresence>
-        </div>
+				</div>
     ); 
 }
 

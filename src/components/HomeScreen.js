@@ -6,7 +6,7 @@ import candidatesData from './candidatesData.js';
 import whatWeStandForData from './whatWeStandForData.js';
 import platformData from './platformData.js';
 import teamData from './teamData.js'
-import Modal from './Modal.js';
+import ModalNew from './ModalNew.js';
 
 function HomeScreen() {
   return (
@@ -33,6 +33,7 @@ function HomeScreen() {
             isLargeRow
             data={teamData}
             />
+            <ModalNew/>
         </div>
     );
 }
