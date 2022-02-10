@@ -7,9 +7,9 @@ import { VscChromeClose } from "react-icons/vsc";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
 
-function ModalNew() {
+function ModalNew(props) {
 
-	const [modalClosed, setModalClosed] = useState(false);
+	const [modalClosed, setModalClosed] = useState(true);
 
 	const handleModalClose = function(){
 		setModalClosed(!modalClosed);

@@ -22,29 +22,26 @@ function Row({ title, isLargeRow = false, data }) {
     //     fetchData();
     // }, [fetchUrl]);
 
+    const handleImageClick = function(open){
+        
+    }
+
     return (
         <div className='row'>
             <h2>{title}</h2>
             <div className='row__posters'>
                 {data.map((value) => 
                     isLargeRow && (
-                        <Router>
-                            <Link to={value.modalPath}>
                             <img 
                                 id={`img${value.id}`}
                                 className={`row__poster ${isLargeRow && "row__posterLarge"}`}
                                 key={value.id}
                                 src={`${value.url}`} alt={value.name}
+                                onClick={() => handleImageClick(true)}
                             />
-                            </Link>
-                            <Routes>
-                                <Route exact path={value.modalPath} component={ModalNew} />
-                            </Routes>
-                            
-                        </Router>
-                        
                         
                         )
+                        
                 )}
             </div>
             
