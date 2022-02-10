@@ -51,7 +51,7 @@ function Modal() {
 								</div>
 							</div>
 							<motion.div variants={staggerOne} initial="initial" animate="animate" exit="exit" className="Modal__info--wrp">
-								<motion.h3 variants={modalFadeInUpVariants} className="Modal__info--title">Dhathrutv Baddam Reddy</motion.h3>
+								<motion.h3 variants={modalFadeInUpVariants} className="Modal__info--title">Name and Last Name</motion.h3>
 								<motion.p variants={modalFadeInUpVariants} className="Modal__info--description">Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.</motion.p>
 								<motion.hr variants={modalFadeInUpVariants} className="Modal__info--line"/>
 							</motion.div>

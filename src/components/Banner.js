@@ -40,7 +40,7 @@ function Banner() {
         </div> */}
          <div className="banner__contents">
              <h1 className="banner__title">
-           BADDAM AND LUKOSE
+           FIRST AND SECOND
              </h1>
             
          <div className="banner__buttons">
@@ -49,7 +49,7 @@ function Banner() {
          </div>
 
          <h1 className="banner__description">
-           {truncate("Baddam and Lukose here! We're very excited to be running to be your next Student Body President + Vice President at the University of Cincinnati! We look forward to every COVID Careful interaction with you over these next couple weeks and can't wait to learn what's most important to you! We hope to share more about our vision and platform and #TogetherWeWill build the movement to help students succeed!", 300)}
+           {truncate("First and Second here! We're very excited to be running to be your next Student Body President + Vice President at the University of Cincinnati! We look forward to every COVID Careful interaction with you over these next couple weeks and can't wait to learn what's most important to you! We hope to share more about our vision and platform and #TogetherWeWill build the movement to help students succeed!", 300)}
          </h1>
        </div>
 

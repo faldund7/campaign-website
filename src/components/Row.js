@@ -3,6 +3,7 @@ import '../css/Row.css';
 // import {  useState, useEffect } from 'react';
 // import data from './candidatesData.js';
 // import axios from 'axios';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function Row({ title, isLargeRow = false, data }) {
     // const [movies, setMovies] = useState([]);
@@ -26,12 +27,18 @@ function Row({ title, isLargeRow = false, data }) {
             <div className='row__posters'>
                 {data.map((value) => 
                     isLargeRow && (
-                        <img 
-                            id={`img${value.id}`}
-                            className={`row__poster ${isLargeRow && "row__posterLarge"}`}
-                            key={value.id}
-                            src={`${value.url}`} alt={value.name}
-                        />
+                        <Router>
+                            <Link to={value.modalPath}>
+                            <img 
+                                id={`img${value.id}`}
+                                className={`row__poster ${isLargeRow && "row__posterLarge"}`}
+                                key={value.id}
+                                src={`${value.url}`} alt={value.name}
+                            />
+                            </Link>
+                        </Router>
+                        
+                        
                         )
                 )}
             </div>
