@@ -3,7 +3,8 @@ import '../css/Row.css';
 // import {  useState, useEffect } from 'react';
 // import data from './candidatesData.js';
 // import axios from 'axios';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import ModalNew from './ModalNew';
 
 function Row({ title, isLargeRow = false, data }) {
     // const [movies, setMovies] = useState([]);
@@ -36,6 +37,10 @@ function Row({ title, isLargeRow = false, data }) {
                                 src={`${value.url}`} alt={value.name}
                             />
                             </Link>
+                            <Routes>
+                                <Route exact path={value.modalPath} component={ModalNew} />
+                            </Routes>
+                            
                         </Router>
                         
                         

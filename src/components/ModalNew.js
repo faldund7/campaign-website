@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 function ModalNew() {
 
-	const [modalClosed, setModalClosed] = useState(true);
+	const [modalClosed, setModalClosed] = useState(false);
 
 	const handleModalClose = function(){
 		setModalClosed(!modalClosed);
