@@ -6,7 +6,7 @@ import '../css/Row.css';
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import ModalNew from './ModalNew';
 
-function Row({ title, isLargeRow = false, data }) {
+function Row({ title, isLargeRow = false, data, templateModalFunction }) {
     // const [movies, setMovies] = useState([]);
 
     // const base_url = "https://image.tmdb.org/t/p/original/";
@@ -22,9 +22,9 @@ function Row({ title, isLargeRow = false, data }) {
     //     fetchData();
     // }, [fetchUrl]);
 
-    const handleImageClick = function(open){
+    // const handleImageClick = function(open){
         
-    }
+    // }
 
     return (
         <div className='row'>
@@ -37,7 +37,7 @@ function Row({ title, isLargeRow = false, data }) {
                                 className={`row__poster ${isLargeRow && "row__posterLarge"}`}
                                 key={value.id}
                                 src={`${value.url}`} alt={value.name}
-                                onClick={() => handleImageClick(true)}
+                                onClick={() => templateModalFunction(true, "hello world", "hello world")}
                             />
                         
                         )

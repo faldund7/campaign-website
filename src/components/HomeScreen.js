@@ -11,7 +11,13 @@ import { useState } from 'react';
 
 function HomeScreen() {
     const [displayModal, setDisplayModal] = useState(false);
-    
+    const [modalTitle, setModalTitle] = useState('');
+    const [modalInfo, setModalInfo] = useState('');
+    const handleImageClick = function(showModal, modalText, modalTitle){
+        setDisplayModal(showModal);
+        setModalTitle(modalTitle);
+        setModalInfo(modalText);
+    }
   return (
         <div className='homeScreen'>
             {/* Nav */}
@@ -23,6 +29,7 @@ function HomeScreen() {
             title="Meet Your Candidates"
             isLargeRow
             data={candidatesData}
+            templateModalFunction={handleImageClick}
             />
             <Row title="What We Stand For"
             isLargeRow
@@ -38,7 +45,7 @@ function HomeScreen() {
             />
             {
                 displayModal && (
-                    <ModalNew/>
+                    <ModalNew />
             )
             }
             
