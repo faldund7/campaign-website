@@ -13,10 +13,14 @@ function HomeScreen() {
     const [displayModal, setDisplayModal] = useState(false);
     const [modalTitle, setModalTitle] = useState('');
     const [modalInfo, setModalInfo] = useState('');
-    const handleImageClick = function(showModal, modalText, modalTitle){
+    const handleImageClick = function(showModal, text, title){
+        console.log(modalTitle);
         setDisplayModal(showModal);
-        setModalTitle(modalTitle);
-        setModalInfo(modalText);
+        setModalTitle(title);
+        console.log(modalTitle);
+        setModalInfo(text);
+        
+        // console.log(modalInfo);
     }
   return (
         <div className='homeScreen'>
@@ -45,8 +49,8 @@ function HomeScreen() {
             />
             {
                 displayModal && (
-                    <ModalNew />
-            )
+                    <ModalNew title={modalTitle} info={modalInfo}/>
+                )
             }
             
         </div>
