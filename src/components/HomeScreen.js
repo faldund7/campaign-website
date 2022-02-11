@@ -7,8 +7,11 @@ import whatWeStandForData from './whatWeStandForData.js';
 import platformData from './platformData.js';
 import teamData from './teamData.js'
 import ModalNew from './ModalNew.js';
+import { useState } from 'react';
 
 function HomeScreen() {
+    const [displayModal, setDisplayModal] = useState(false);
+    
   return (
         <div className='homeScreen'>
             {/* Nav */}
@@ -33,7 +36,12 @@ function HomeScreen() {
             isLargeRow
             data={teamData}
             />
-            <ModalNew/>
+            {
+                displayModal && (
+                    <ModalNew/>
+            )
+            }
+            
         </div>
     );
 }

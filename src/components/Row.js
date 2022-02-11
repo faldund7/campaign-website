@@ -44,7 +44,6 @@ function Row({ title, isLargeRow = false, data }) {
                         
                 )}
             </div>
-            
         </div>
     );
 }
