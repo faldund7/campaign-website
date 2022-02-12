@@ -1,13 +1,13 @@
-import "./playAnimation.scss"
+import "../css/playAnimation.scss";
 import { useEffect, useRef } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 // import { TADUM_SOUND_URL } from "../../requests";
 
 const PlayAnimation = () => {
 
     const TADUM_SOUND_URL = "https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix/Fakeflix_TaDum.mp3";
 
-	let history = useHistory();
+	let history = useNavigate();
 	const soundRef = useRef(null);
 	const handleTadum = () => {
 		soundRef.current.currentTime = 0;
