@@ -9,14 +9,6 @@ import { useState } from 'react';
 
 function ModalNew(props) {
 
-	const [modalClosed, setModalClosed] = useState(true);
-
-	const handleModalClose = function(){
-		// setModalClosed(!props.show);
-		// console.log(props.show)
-		props.show = false;
-	};
-
     return( 
 		<div>{
 			// modalClosed &&
@@ -36,7 +28,7 @@ function ModalNew(props) {
 				<button
 					className="Modal__closebtn"
 					// onClick={handleModalClose}
-					onClick={() => handleModalClose()}
+					onClick={() => props.showFunction(false)}
 				>
 					<VscChromeClose />
 				</button>

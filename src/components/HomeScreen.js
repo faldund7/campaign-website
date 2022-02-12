@@ -11,17 +11,17 @@ import { useState } from 'react';
 
 function HomeScreen() {
     const [displayModal, setDisplayModal] = useState(true);
-    const [modalTitle, setModalTitle] = useState('');
-    const [modalInfo, setModalInfo] = useState('');
-    const handleImageClick = function(showModal, text, title){
-        // console.log(modalTitle);
-        // setDisplayModal(showModal);
-        setModalTitle(title);
-        console.log(modalTitle);
-        // setModalInfo(text);
+    // const [modalTitle, setModalTitle] = useState('');
+    // const [modalInfo, setModalInfo] = useState('');
+    // const handleImageClick = function(showModal, text, title){
+    //     // console.log(modalTitle);
+    //     // setDisplayModal(showModal);
+    //     setModalTitle(title);
+    //     console.log(modalTitle);
+    //     // setModalInfo(text);
         
-        // console.log(modalInfo);
-    }
+    //     // console.log(modalInfo);
+    // }
   return (
         <div className='homeScreen'>
             {/* Nav */}
@@ -33,9 +33,6 @@ function HomeScreen() {
             title="Meet Your Candidates"
             isLargeRow
             data={candidatesData}
-            // templateModalFunction={handleImageClick}
-            templateModalFunction={setModalTitle}
-            templateShowFunction={setDisplayModal}
             />
             <Row title="What We Stand For"
             isLargeRow
@@ -49,12 +46,8 @@ function HomeScreen() {
             isLargeRow
             data={teamData}
             />
-            {/* {
-                displayModal && (
-                    <ModalNew title={modalTitle} info={modalInfo}/>
-                )
-            } */}
-            <ModalNew show={displayModal}/>
+            {/* Modal */}
+            <ModalNew show={displayModal} showFunction={setDisplayModal}/>
         </div>
     );
 }
