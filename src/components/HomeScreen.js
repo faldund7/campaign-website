@@ -33,14 +33,17 @@ function HomeScreen() {
             <Row title="What We Stand For"
             isLargeRow
             data={whatWeStandForData}
+            templateFunction={twoFunctionsCalled}
             />
             <Row title="Platform"
             isLargeRow
             data={platformData}
+            templateFunction={twoFunctionsCalled}
             />
             <Row title="Our Team" 
             isLargeRow
             data={teamData}
+            templateFunction={twoFunctionsCalled}
             />
             {/* Modal */}
             <ModalNew show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo}/>
