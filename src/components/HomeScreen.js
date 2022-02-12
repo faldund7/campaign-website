@@ -28,10 +28,7 @@ function HomeScreen() {
             title="Meet Your Candidates"
             isLargeRow
             data={candidatesData}
-            // modalDataFunction={setModalData}
-            // show={displayModal}
             templateFunction={twoFunctionsCalled}
-            // showFunction={setDisplayModal}
             />
             <Row title="What We Stand For"
             isLargeRow
