@@ -7,7 +7,8 @@ const PlayAnimation = () => {
 
     const TADUM_SOUND_URL = "https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix/Fakeflix_TaDum.mp3";
 
-	let history = useNavigate();
+	// let history = useNavigate();
+	let navigate = useNavigate();
 	const soundRef = useRef(null);
 	const handleTadum = () => {
 		soundRef.current.currentTime = 0;
@@ -17,15 +18,16 @@ const PlayAnimation = () => {
 	useEffect(() => {
 		handleTadum();
 		setTimeout(() => {
-			history.push('/browse')
+			// history.push('/')
+			navigate('/', { replace: true });
 		}, 4200)
-	}, [history])
+	}, [navigate])
 
 	return (
 		<div className='PlayAnimation__wrp'>
 			<audio ref={soundRef} src={TADUM_SOUND_URL} />
 			<span className="PlayAnimation__text">
-				BADDAM-LUKOSE
+				Baddam and Lukose
 			</span>
 		</div>
 	)

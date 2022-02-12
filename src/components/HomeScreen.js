@@ -25,37 +25,53 @@ function HomeScreen() {
     }
   return (
         <div className='homeScreen'>
-            {/* Nav */}
-            <Nav/>
-            {/* Banner */}
-            <Banner/>
-            {/* Row */}
-            <Row
-            title="Meet Your Candidates"
-            isLargeRow
-            data={candidatesData}
-            templateFunction={twoFunctionsCalled}
-            />
-            <Row title="What We Stand For"
-            isLargeRow
-            data={whatWeStandForData}
-            templateFunction={twoFunctionsCalled}
-            />
-            <Row title="Platform"
-            isLargeRow
-            data={platformData}
-            templateFunction={twoFunctionsCalled}
-            />
-            <Row title="Our Team" 
-            isLargeRow
-            data={teamData}
-            templateFunction={twoFunctionsCalled}
-            />
-            {/* Modal */}
-            <Modal show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo}/>
+            <Router>
+                <Routes>
+                    <Route
+                    path="/play"
+                    element={<PlayAnimation/>}/>
 
-            {/* PlayAnimation */}   
-            {/* <PlayAnimation/> */}
+                    <Route
+                    path="/"
+                    element={<React.Fragment>
+                        {/* Nav */}
+                        <Nav/>
+                        {/* Banner */}
+                        <Banner/>
+                        {/* Row */}
+                        <Row
+                        title="Meet Your Candidates"
+                        isLargeRow
+                        data={candidatesData}
+                        templateFunction={twoFunctionsCalled}
+                        />
+                        <Row title="What We Stand For"
+                        isLargeRow
+                        data={whatWeStandForData}
+                        templateFunction={twoFunctionsCalled}
+                        />
+                        <Row title="Platform"
+                        isLargeRow
+                        data={platformData}
+                        templateFunction={twoFunctionsCalled}
+                        />
+                        <Row title="Our Team" 
+                        isLargeRow
+                        data={teamData}
+                        templateFunction={twoFunctionsCalled}
+                        />
+                        {/* Modal */}
+                        <Modal show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo}/>
+
+                        {/* PlayAnimation */}   
+                        {/* <PlayAnimation/> */}
+                    </React.Fragment>}
+                    >
+                        
+                    </Route>
+                </Routes>
+            </Router>
+            
         </div>
     );
 }
