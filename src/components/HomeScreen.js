@@ -10,15 +10,15 @@ import ModalNew from './ModalNew.js';
 import { useState } from 'react';
 
 function HomeScreen() {
-    const [displayModal, setDisplayModal] = useState(false);
+    const [displayModal, setDisplayModal] = useState(true);
     const [modalTitle, setModalTitle] = useState('');
     const [modalInfo, setModalInfo] = useState('');
     const handleImageClick = function(showModal, text, title){
-        console.log(modalTitle);
-        setDisplayModal(showModal);
+        // console.log(modalTitle);
+        // setDisplayModal(showModal);
         setModalTitle(title);
         console.log(modalTitle);
-        setModalInfo(text);
+        // setModalInfo(text);
         
         // console.log(modalInfo);
     }
@@ -33,7 +33,9 @@ function HomeScreen() {
             title="Meet Your Candidates"
             isLargeRow
             data={candidatesData}
-            templateModalFunction={handleImageClick}
+            // templateModalFunction={handleImageClick}
+            templateModalFunction={setModalTitle}
+            templateShowFunction={setDisplayModal}
             />
             <Row title="What We Stand For"
             isLargeRow
@@ -47,12 +49,12 @@ function HomeScreen() {
             isLargeRow
             data={teamData}
             />
-            {
+            {/* {
                 displayModal && (
                     <ModalNew title={modalTitle} info={modalInfo}/>
                 )
-            }
-            
+            } */}
+            <ModalNew show={displayModal}/>
         </div>
     );
 }

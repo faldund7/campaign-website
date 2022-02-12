@@ -12,12 +12,15 @@ function ModalNew(props) {
 	const [modalClosed, setModalClosed] = useState(true);
 
 	const handleModalClose = function(){
-		setModalClosed(!modalClosed);
+		// setModalClosed(!props.show);
+		// console.log(props.show)
+		props.show = false;
 	};
 
     return( 
 		<div>{
-			modalClosed && 
+			// modalClosed &&
+			props.show && 
 			(<div
 			// variants={modalOverlayVariants}
 			className={`Modal__overlay`}
