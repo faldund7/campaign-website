@@ -4,7 +4,7 @@ import React from 'react';
 import '../css/Modal.scss';
 import { FaPlay } from "react-icons/fa";
 import { VscChromeClose } from "react-icons/vsc";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState } from 'react';
 
 function Modal(props) {
@@ -40,14 +40,16 @@ function Modal(props) {
 						alt="Some Random"
 					/>
 					<div className="Modal__image--buttonswrp">
-					<div
+					<Link
 							className="Modal__image--button"
 							// onClick={handlePlayAnimation}
+							to={'/play'}
 						>
+
 							<FaPlay />
 							<span>Play</span>
 					
-					</div>
+					</Link>
 						
 					</div>
 				</div>

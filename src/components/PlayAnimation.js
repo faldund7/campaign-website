@@ -5,7 +5,8 @@ import { useNavigate } from "react-router-dom";
 
 const PlayAnimation = () => {
 
-    const TADUM_SOUND_URL = "https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix/Fakeflix_TaDum.mp3";
+    // const TADUM_SOUND_URL = "https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix/Fakeflix_TaDum.mp3";
+	const TADUM_SOUND_URL = "https://github.com/faldund7/campaign-website/blob/master/src/assets/sample_audio.mp3";
 
 	let navigate = useNavigate();
 	const soundRef = useRef(null);
@@ -18,12 +19,12 @@ const PlayAnimation = () => {
 		handleTadum();
 		setTimeout(() => {
 			navigate('/', { replace: true });
-		}, 4200)
+		}, 4200);
 	}, [navigate])
 
 	return (
 		<div className='PlayAnimation__wrp'>
-			<audio ref={soundRef} src={TADUM_SOUND_URL} />
+			<audio autoPlay ref={soundRef} src={TADUM_SOUND_URL} />
 			<span className="PlayAnimation__text">
 				FIRST AND LAST NAME
 			</span>
