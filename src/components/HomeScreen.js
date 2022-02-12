@@ -10,7 +10,7 @@ import ModalNew from './ModalNew.js';
 import { useState } from 'react';
 
 function HomeScreen() {
-    const [displayModal, setDisplayModal] = useState(true);
+    const [displayModal, setDisplayModal] = useState(false);
     const [modalData, setModalData] = useState({});
 
     const twoFunctionsCalled = function(modalJson){
