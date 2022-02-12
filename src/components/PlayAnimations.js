@@ -1,9 +1,11 @@
 import "./playAnimation.scss"
 import { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
-import { TADUM_SOUND_URL } from "../../requests";
+// import { TADUM_SOUND_URL } from "../../requests";
 
 const PlayAnimation = () => {
+
+    const TADUM_SOUND_URL = "https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix/Fakeflix_TaDum.mp3";
 
 	let history = useHistory();
 	const soundRef = useRef(null);
@@ -23,7 +25,7 @@ const PlayAnimation = () => {
 		<div className='PlayAnimation__wrp'>
 			<audio ref={soundRef} src={TADUM_SOUND_URL} />
 			<span className="PlayAnimation__text">
-				FAKEFLIX
+				BADDAM-LUKOSE
 			</span>
 		</div>
 	)
