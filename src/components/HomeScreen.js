@@ -6,7 +6,7 @@ import candidatesData from './candidatesData.js';
 import whatWeStandForData from './whatWeStandForData.js';
 import platformData from './platformData.js';
 import teamData from './teamData.js';
-import ModalNew from './ModalNew.js';
+import Modal from './Modal.js';
 import { useState } from 'react';
 
 function HomeScreen() {
@@ -46,7 +46,7 @@ function HomeScreen() {
             templateFunction={twoFunctionsCalled}
             />
             {/* Modal */}
-            <ModalNew show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo}/>
+            <Modal show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo}/>
         </div>
     );
 }

@@ -1,30 +1,7 @@
 import React from 'react';
 import '../css/Row.css';
-// import {  useState, useEffect } from 'react';
-// import data from './candidatesData.js';
-// import axios from 'axios';
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
-import ModalNew from './ModalNew';
 
 function Row({ title, isLargeRow = false, data, templateFunction }) {
-    // const [movies, setMovies] = useState([]);
-
-    // const base_url = "https://image.tmdb.org/t/p/original/";
-
-    // useEffect(() => {
-    //     async function fetchData(){
-    //         const request = await axios.get(fetchUrl);
-    //         setMovies(request.data.results);
-    //         // Good practice: so that the function cuts out
-    //         return request;
-    //     }
-
-    //     fetchData();
-    // }, [fetchUrl]);
-
-    // const handleImageClick = function(open){
-        
-    // }
 
     return (
         <div className='row'>
