@@ -27,12 +27,21 @@ function Banner() {
         <header className="banner"
          style={{
             backgroundSize: "cover",
-             backgroundImage: `url(
-              "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
+             backgroundVideo: `url(
+              "https://github.com/faldund7/campaign-website/blob/master/src/assets/CallForSubmissionPost_2.mp4"
          )`,
         backgroundPosition: "center center",
       }}
     >
+      {/* <iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="300"
+    height="300"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+    src="https://vimeo.com/user166538541/review/676649153/623223ec66">
+</iframe> */}
         {/* <div>
              <video loop autoPlay muted id="bgVideo">
                  <source src={require('../images/CallForSubmissionPost_2.mp4')} type="video/mp4"/>

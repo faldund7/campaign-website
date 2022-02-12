@@ -14,6 +14,7 @@ import {
     Routes,
     Route
   } from "react-router-dom";
+import ReactNetflixPlayer from "react-netflix-player";
 
 function HomeScreen() {
     const [displayModal, setDisplayModal] = useState(false);
@@ -67,8 +68,20 @@ function HomeScreen() {
                         {/* <PlayAnimation/> */}
                     </React.Fragment>}
                     >
-                        
                     </Route>
+
+                    <Route
+                    path="/video"
+                    element={<ReactNetflixPlayer
+                            src="https://github.com/faldund7/campaign-website/blob/master/src/assets/CallForSubmissionPost_2.mp4"
+                            title="hello world"
+                            subTitle="hello world"
+                            titleMedia="hello world"
+                            overlayEnabled={true}
+                            fullPlayer={true}
+                            autoControllCloseEnabled={true}
+                            backButton={true}
+                            />}/>
                 </Routes>
             </Router>
             
