@@ -27,8 +27,8 @@ function Banner() {
         <header className="banner"
          style={{
             backgroundSize: "cover",
-             backgroundVideo: `url(
-              "https://github.com/faldund7/campaign-website/blob/master/src/assets/CallForSubmissionPost_2.mp4"
+             backgroundImage: `url(
+              "https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4"
          )`,
         backgroundPosition: "center center",
       }}
