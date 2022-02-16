@@ -12,7 +12,8 @@ import PlayAnimation from './PlayAnimation.js'
 import {
     BrowserRouter as Router,
     Routes,
-    Route
+    Route,
+    useNavigate
   } from "react-router-dom";
 import ReactNetflixPlayer from "react-netflix-player";
 
@@ -20,13 +21,18 @@ function HomeScreen() {
     const [displayModal, setDisplayModal] = useState(false);
     const [modalData, setModalData] = useState({});
 
+    let navigate = useNavigate();
+
+    const handleNavigation = function(){
+      navigate('/', { replace: true });
+    }
     const twoFunctionsCalled = function(modalJson){
         setDisplayModal(true);
         setModalData(modalJson);
     }
   return (
         <div className='homeScreen'>
-            <Router>
+            {/* <Router> */}
                 <Routes>
                     <Route
                     path="/play"
@@ -83,7 +89,7 @@ function HomeScreen() {
                         // Text language of player
                         playerLanguage="en"
                         // Action when the button X (close) is clicked
-                        backButton={() => { }}
+                        backButton={() => { handleNavigation() }}
                         // The player use the all viewport
                         fullPlayer
                         autoPlay
@@ -130,7 +136,7 @@ function HomeScreen() {
                       // subtitleMedia="/teste.vtt"
                       />}/>
                 </Routes>
-            </Router>
+            {/* </Router> */}
             
         </div>
     );
