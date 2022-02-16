@@ -36,7 +36,7 @@ function Modal(props) {
 					<div className="Modal__image--shadow" />
 					<img
 						className="Modal__image--img"
-						src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg"
+						src={props.modalThumbnail}
 						alt="Some Random"
 					/>
 					<div className="Modal__image--buttonswrp">

@@ -62,7 +62,7 @@ function HomeScreen() {
                         templateFunction={twoFunctionsCalled}
                         />
                         {/* Modal */}
-                        <Modal show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo} modalVideoURL={modalData.video_url}/>
+                        <Modal show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo} modalThumbnail={modalData.thumbnail_url}/>
 
                         {/* PlayAnimation */}   
                         {/* <PlayAnimation/> */}
@@ -74,7 +74,7 @@ function HomeScreen() {
                     path="/video"
                     element={<ReactNetflixPlayer
                         // Vídeo Link - Just data is required
-                        src="https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4"
+                        src={modalData.video_url}
                         // src={"http://videoinvalid"}
                         title="Dragon Ball Z"
                         subTitle="Opening"
