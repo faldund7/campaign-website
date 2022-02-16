@@ -22,10 +22,10 @@ function HomeScreen() {
     const [modalData, setModalData] = useState({});
 
     let navigate = useNavigate();
-
     const handleNavigation = function(){
       navigate('/', { replace: true });
     }
+
     const twoFunctionsCalled = function(modalJson){
         setDisplayModal(true);
         setModalData(modalJson);
@@ -95,31 +95,31 @@ function HomeScreen() {
                         autoPlay
                         startPosition={0}
                         // The info of the next video action
-                        dataNext={{ title: 'Não existe um próximo vídeo.' }}
+                          // dataNext={{ title: 'Não existe um próximo vídeo.' }}
                         // The action call when the next video is clicked
-                        onNextClick={() => { }}
+                        // onNextClick={() => { }}
                         // The list reproduction data, will be render in this order
-                        reprodutionList={[
-                          {
-                            nome: 'Opening',
-                            id: 1,
-                            playing: true,
-                          },
-                          {
-                            nome: 'Teste',
-                            id: 2,
-                            playing: false,
-                          },
-                        ]}
+                          // reprodutionList={[
+                          //   {
+                          //     nome: 'Opening',
+                          //     id: 1,
+                          //     playing: true,
+                          //   },
+                          //   {
+                          //     nome: 'Teste',
+                          //     id: 2,
+                          //     playing: false,
+                          //   },
+                          // ]}
                         // The function call when a item in reproductionList is clicked
-                        onClickItemListReproduction={(id, playing) => {
-                          return {
-                            id,
-                            playing,
-                          };
-                        }}
+                          // onClickItemListReproduction={(id, playing) => {
+                          //   return {
+                          //     id,
+                          //     playing,
+                          //   };
+                          // }}
                         // The function is call when the video finish
-                        onEnded={() => { }}
+                        onEnded={() => { handleNavigation() }}
                         // The function is call when the video is playing (One time for frame)
                         onTimeUpdate={() => { }}
                         // Enable the orverlay when player is paused
