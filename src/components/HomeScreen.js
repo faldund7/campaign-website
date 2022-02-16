@@ -62,7 +62,7 @@ function HomeScreen() {
                         templateFunction={twoFunctionsCalled}
                         />
                         {/* Modal */}
-                        <Modal show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo}/>
+                        <Modal show={displayModal} showFunction={setDisplayModal} modalTitle={modalData.modalTitle} modalInfo={modalData.modalInfo} modalVideoURL={modalData.video_url}/>
 
                         {/* PlayAnimation */}   
                         {/* <PlayAnimation/> */}

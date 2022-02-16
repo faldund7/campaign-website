@@ -18,7 +18,7 @@ const PlayAnimation = () => {
 	useEffect(() => {
 		handleTadum();
 		setTimeout(() => {
-			navigate('/', { replace: true });
+			navigate('/video', { replace: true });
 		}, 4200);
 	}, [navigate])
 
