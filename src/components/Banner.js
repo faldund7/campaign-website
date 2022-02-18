@@ -1,23 +1,7 @@
-import React, { useState, useEffect } from "react";
-// import axios from "./axios";
-// import requests from "./requests";
+import React from "react";
 import "../css/Banner.css";
 
 function Banner() {
-    const [movie, setMovie] = useState([]);
-
-    // useEffect(() => {
-    //     async function fetchData() {
-    //         const request =  await axios.get(requests.fetchNetflixOriginals);
-    //         setMovie( 
-    //             request.data.results[
-    //             Math.floor(Math.random() * request.data.results.length - 1)
-    //          ]
-    //         );
-    //         return request;
-    //       }
-    //       fetchData();
-    //     }, []);
 
     function truncate(str, n) {
       return str?.length > n ? str.substr(0, n - 1) + "..." : str;
@@ -33,20 +17,6 @@ function Banner() {
         backgroundPosition: "center center",
       }}
     >
-      {/* <iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="300"
-    height="300"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-    src="https://vimeo.com/user166538541/review/676649153/623223ec66">
-</iframe> */}
-        {/* <div>
-             <video loop autoPlay muted id="bgVideo">
-                 <source src={require('../images/CallForSubmissionPost_2.mp4')} type="video/mp4"/>
-             </video>
-        </div> */}
          <div className="banner__contents">
              <h1 className="banner__title">
            FIRST AND SECOND
@@ -55,6 +25,12 @@ function Banner() {
          <div className="banner__buttons">
            <button className="banner__button">Play</button>
            <button className="banner__button">Vote</button>
+           <a href="https://www.instagram.com/baddamlukose2022/" target="_blank">
+           <button className="banner__button">Instagram</button>
+           </a>
+           <a href="https://vm.tiktok.com/TTPdBgUmso/" target="_blank">
+           <button className="banner__button">TikTok</button>
+           </a>
          </div>
 
          <h1 className="banner__description">
