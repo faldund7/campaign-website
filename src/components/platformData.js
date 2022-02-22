@@ -4,8 +4,8 @@ const platformData = [
         url: 'https://2022campaign.s3.us-east-2.amazonaws.com/uc_osu_football.png',
         video_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/uc_osu_football.mp4',
         name: 'Dhathrutv Arya Reddy',
-        modalTitle: 'Hello, World!',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalTitle: 'UC-OSU Football Game',
+        modalInfo: "What - One thing that our students have always wanted is a UC-OSU Football game. We want to arrange for a pre-season exhibition match between UC and OSU where we get to see the two giants face each other. <br/> Why - Many students in both the universities have always wanted to see this match and given all the different leagues and circumstances this so far has remained a dream. We will try our best to make this dream come true! (maybe elaborate)",
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/uc_osu_football.png'
     },
     {
