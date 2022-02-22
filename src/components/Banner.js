@@ -34,7 +34,9 @@ function Banner() {
          </div>
 
          <h1 className="banner__description">
-           {truncate("First and Second here! We're very excited to be running to be your next Student Body President + Vice President at the University of Cincinnati! We look forward to every COVID Careful interaction with you over these next couple weeks and can't wait to learn what's most important to you! We hope to share more about our vision and platform and #TogetherWeWill build the movement to help students succeed!", 300)}
+           {truncate(`Hey Bearcats!`, 500)}
+           <br></br>
+           {truncate(`We’re the Baddam&Lukose slate! We are incredibly excited about running to be your next Undergraduate Student Body President & Vice - President at the University of Cincinnati! Over the next few weeks, we hope to share our vision of UC in the next few years and share our dream of making the University of Cincinnati the place everybody wants to be at, the place everyone loves, and the place which empowers everyone who’s a part of it!`, 500)}
          </h1>
        </div>
 
