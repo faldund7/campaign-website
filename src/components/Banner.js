@@ -19,7 +19,7 @@ function Banner() {
     >
          <div className="banner__contents">
              <h1 className="banner__title">
-           FIRST AND SECOND
+           {`Baddam & Lukose 2022`} 
              </h1>
             
          <div className="banner__buttons">

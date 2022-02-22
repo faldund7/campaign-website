@@ -26,7 +26,7 @@ const PlayAnimation = () => {
 		<div className='PlayAnimation__wrp'>
 			<audio autoPlay ref={soundRef} src={TADUM_SOUND_URL} />
 			<span className="PlayAnimation__text">
-				FIRST AND LAST NAME
+			{`Baddam & Lukose 2022`} 
 			</span>
 		</div>
 	)
