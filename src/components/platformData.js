@@ -1,7 +1,7 @@
 const platformData = [
     {
         id: 5,
-        url: 'https://2022campaign.s3.us-east-2.amazonaws.com/sample.png',
+        url: 'https://2022campaign.s3.us-east-2.amazonaws.com/clifton_map.png',
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Dhathrutv Arya Reddy',
         modalTitle: 'Hello, World!',
