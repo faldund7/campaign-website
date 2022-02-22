@@ -12,7 +12,7 @@ function Banner() {
          style={{
             backgroundSize: "cover",
              backgroundImage: `url(
-              "https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4"
+              "https://2022campaign.s3.us-east-2.amazonaws.com/banner_video.mp4"
          )`,
         backgroundPosition: "center center",
       }}
@@ -29,7 +29,7 @@ function Banner() {
            <button className="banner__button">Instagram</button>
            </a>
            <a href="https://vm.tiktok.com/TTPdBgUmso/" target="_blank">
-           <button className="banner__button">TikTok</button>
+           {/* <button className="banner__button">TikTok</button> */}
            </a>
          </div>
 
