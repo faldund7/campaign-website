@@ -23,7 +23,8 @@ const candidatesData = [
         
         And I have dared to dream again, to make a better UC for all of YOU, because every thought of our slate 'starts with you'!`,
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/baddam.png',
-        what_why_flag: false
+        what_why_flag: false,
+        video_flag: true
     },
     {
         id: 2,
@@ -37,7 +38,8 @@ const candidatesData = [
         
         With the pandemic continuously disrupting everything we’ve tried to do for the past two years, it’ll take great leadership to bring us back to the traditional college experience most students come to UC for. That’s where Dhathruthv and I come in. We not only believe in restoring the traditional experience at UC, but fundamentally changing the UC experience to make us a destination college. With free iPads for all and the first ever UC Fest headlining the It Starts With YOU platform, expect an sensational campus experience if we’re given the opportunity to be YOUR next President and Vice-President.`,
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/lukose.png',
-        what_why_flag: false
+        what_why_flag: false,
+        video_flag: true
     }
 ]
 

@@ -38,7 +38,7 @@ function Modal(props) {
 						src={props.modalThumbnail}
 						alt="Some Random"
 					/>
-					<div className="Modal__image--buttonswrp">
+					{props.videoFlag && <div className="Modal__image--buttonswrp">
 					<Link
 							className="Modal__image--button"
 							// onClick={handlePlayAnimation}
@@ -50,7 +50,7 @@ function Modal(props) {
 					
 					</Link>
 						
-					</div>
+					</div>}
 				</div>
 
 				{props.showFlag && <div 
