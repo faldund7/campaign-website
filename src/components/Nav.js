@@ -28,10 +28,10 @@ function Nav() {
                         alt='Netlfix Logo'
                     />
 
-                    <img className='nav__avatar'
+                    {/* <img className='nav__avatar'
                         src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png' 
                         alt='Netlfix Avatar'
-                    />
+                    /> */}
                 </div>
                 
             </div>

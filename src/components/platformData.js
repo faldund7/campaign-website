@@ -15,7 +15,7 @@ const platformData = [
         url: 'https://2022campaign.s3.us-east-2.amazonaws.com/uc_fest.png',
         video_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/uc_fest.mp4',
         name: 'Lukos',
-        modalTitle: 'Hello, World!',
+        modalTitle: 'UC Fest',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/uc_fest.png',
         what_data: `A week long celebration with various festivities happening all over the campus where there is something present for everyone to do and have fun! 
         Each day is going to have its own highlight event while there are so many other things happening across campus like Sports, Art, Singing, Dancing competitions, Casino nights etc.                           
