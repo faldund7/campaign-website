@@ -81,10 +81,10 @@ function HomeScreen() {
                         // Vídeo Link - Just data is required
                         src={modalData.video_url}
                         // src={"http://videoinvalid"}
-                        title="Dragon Ball Z"
-                        subTitle="Opening"
-                        titleMedia="Dragon Ball Z"
-                        extraInfoMedia="Opening"
+                        title="Baddam and Lukose 2022"
+                        // subTitle="Opening"
+                        titleMedia="Baddam and Lukose 2022"
+                        // extraInfoMedia="Opening"
                         // Text language of player
                         playerLanguage="en"
                         // Action when the button X (close) is clicked
