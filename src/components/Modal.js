@@ -4,8 +4,7 @@ import React from 'react';
 import '../css/Modal.scss';
 import { FaPlay } from "react-icons/fa";
 import { VscChromeClose } from "react-icons/vsc";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 function Modal(props) {
 

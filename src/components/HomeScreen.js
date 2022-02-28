@@ -10,7 +10,6 @@ import Modal from './Modal.js';
 import { useState } from 'react';
 import PlayAnimation from './PlayAnimation.js'
 import {
-    BrowserRouter as Router,
     Routes,
     Route,
     useNavigate

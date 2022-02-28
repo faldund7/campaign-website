@@ -1,9 +1,8 @@
 import React from 'react';
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { modalOverlayVariants, staggerOne, modalFadeInUpVariants,  modalVariants} from './motionUtils.js';
 import '../css/Modal.scss';
-import { FaMinus, FaPlay, FaPlus } from "react-icons/fa";
-import { VscChromeClose } from "react-icons/vsc";
+import { FaPlay } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
