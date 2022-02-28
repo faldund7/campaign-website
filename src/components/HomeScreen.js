@@ -77,7 +77,7 @@ function HomeScreen() {
 
                     <Route
                     path="/video"
-                    element={<ReactNetflixPlayer
+                    element={window.innerWidth > 760 ? <ReactNetflixPlayer
                         // Vídeo Link - Just data is required
                         src={modalData.video_url}
                         // src={"http://videoinvalid"}
@@ -133,7 +133,7 @@ function HomeScreen() {
                         playbackRateStart={3}
                         playbackRateOptions={['0.25', '0.5', '0.75', 'Normal', '1.25', '1.5', '2', '3']}
                       // subtitleMedia="/teste.vtt"
-                      />}/>
+                      /> : <video controls><source src={modalData.video_url} type="video/mp4"></source></video>}/>
                 </Routes>
             {/* </Router> */}
             
