@@ -23,7 +23,7 @@ function Banner() {
              </h1>
             
          <div className="banner__buttons">
-           <button className="banner__button">Play</button>
+           {/* <button className="banner__button">Play</button> */}
            <button className="banner__button">Vote</button>
            <a href="https://www.instagram.com/baddamlukose/" target="_blank">
            <button className="banner__button">Instagram</button>

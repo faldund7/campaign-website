@@ -59,9 +59,18 @@ function Modal(props) {
 					<h3 
 					// variants={modalFadeInUpVariants} 
 					className="Modal__info--title">{props.modalTitle}</h3>
+					<h6 
+					// variants={modalFadeInUpVariants} 
+					className="Modal__info--title">What</h6>
 					<p 
 					// variants={modalFadeInUpVariants} 
-					className="Modal__info--description">{props.modalInfo}</p>
+					className="Modal__info--description">{props.modalWhatData}</p>
+					<h6 
+					// variants={modalFadeInUpVariants} 
+					className="Modal__info--title">Why</h6>
+					<p 
+					// variants={modalFadeInUpVariants} 
+					className="Modal__info--description">{props.modalWhyData}</p>
 					{/* <hr 
 					// variants={modalFadeInUpVariants} 
 					className="Modal__info--line"/> */}
