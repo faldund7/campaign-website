@@ -25,10 +25,10 @@ function Banner() {
          <div className="banner__buttons">
            {/* <button className="banner__button">Play</button> */}
            <button className="banner__button">Vote</button>
-           <a href="https://www.instagram.com/baddamlukose/" target="_blank">
+           <a href="https://www.instagram.com/baddamlukose/" target="_blank" rel="noreferrer">
            <button className="banner__button">Instagram</button>
            </a>
-           <a href="https://vm.tiktok.com/TTPdBgUmso/" target="_blank">
+           <a href="https://vm.tiktok.com/TTPdBgUmso/" target="_blank" rel="noreferrer">
            {/* <button className="banner__button">TikTok</button> */}
            </a>
          </div>
