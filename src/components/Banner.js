@@ -24,7 +24,9 @@ function Banner() {
             
          <div className="banner__buttons">
            {/* <button className="banner__button">Play</button> */}
+           <a href="https://campuslink.uc.edu/submitter/election/step/1?SubmissionId=44090763" target="_blank" rel="noreferrer">
            <button className="banner__button">Vote</button>
+           </a>
            <a href="https://www.instagram.com/baddamlukose/" target="_blank" rel="noreferrer">
            <button className="banner__button">Instagram</button>
            </a>
