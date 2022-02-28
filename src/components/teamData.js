@@ -5,7 +5,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Dhathrutv Arya Reddy',
         modalTitle: 'Hello, World!',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/preet.png'
     },
     {
@@ -13,8 +13,8 @@ const teamData = [
         url: 'https://2022campaign.s3.us-east-2.amazonaws.com/nishil.png',
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
-        modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalTitle: 'Nishil Faldu',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/nishil.png'
     },
     {
@@ -23,7 +23,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/anusha.png'
     },
     {
@@ -32,7 +32,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/caitlyn.png'
     },
     {
@@ -41,7 +41,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/carolyn.png'
     },
     {
@@ -50,7 +50,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/diya.png'
     },
     {
@@ -59,7 +59,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/gaby.png'
     },
     {
@@ -68,7 +68,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/hussain.png'
     },
     {
@@ -77,7 +77,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/kiara.png'
     },
     {
@@ -86,7 +86,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/mihir.png'
     },
     {
@@ -95,7 +95,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/natik.png'
     },
     {
@@ -104,7 +104,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/pallavi.png'
     },
     {
@@ -113,7 +113,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/priti.png'
     },
     {
@@ -122,7 +122,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/rahul.png'
     },
     {
@@ -131,7 +131,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/renato.png'
     },
     {
@@ -140,7 +140,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/terry.png'
     },
     {
@@ -149,7 +149,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/tom.png'
     },
     {
@@ -158,7 +158,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/tyra.png'
     },
     {
@@ -167,7 +167,7 @@ const teamData = [
         video_url: 'https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4',
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
-        modalInfo: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
+        modalInfo: '',
         thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/yagna.png'
     }
 ]
