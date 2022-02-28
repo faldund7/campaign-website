@@ -6,7 +6,8 @@ const teamData = [
         name: 'Dhathrutv Arya Reddy',
         modalTitle: 'Hello, World!',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/preet.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/preet.png',
+        what_why_flag: false
     },
     {
         id: 8,
@@ -15,7 +16,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'Nishil Faldu',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/nishil.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/nishil.png',
+        what_why_flag: false
     },
     {
         id: 9,
@@ -24,7 +26,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/anusha.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/anusha.png',
+        what_why_flag: false
     },
     {
         id: 10,
@@ -33,7 +36,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/caitlyn.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/caitlyn.png',
+        what_why_flag: false
     },
     {
         id: 11,
@@ -42,7 +46,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/carolyn.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/carolyn.png',
+        what_why_flag: false
     },
     {
         id: 12,
@@ -51,7 +56,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/diya.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/diya.png',
+        what_why_flag: false
     },
     {
         id: 13,
@@ -60,7 +66,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/gaby.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/gaby.png',
+        what_why_flag: false
     },
     {
         id: 14,
@@ -69,7 +76,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/hussain.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/hussain.png',
+        what_why_flag: false
     },
     {
         id: 15,
@@ -78,7 +86,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/kiara.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/kiara.png',
+        what_why_flag: false
     },
     {
         id: 16,
@@ -87,7 +96,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/mihir.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/mihir.png',
+        what_why_flag: false
     },
     {
         id: 17,
@@ -96,7 +106,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/natik.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/natik.png',
+        what_why_flag: false
     },
     {
         id: 8,
@@ -105,7 +116,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/pallavi.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/pallavi.png',
+        what_why_flag: false
     },
     {
         id: 18,
@@ -114,7 +126,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/priti.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/priti.png',
+        what_why_flag: false
     },
     {
         id: 19,
@@ -123,7 +136,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/rahul.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/rahul.png',
+        what_why_flag: false
     },
     {
         id: 20,
@@ -132,7 +146,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/renato.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/renato.png',
+        what_why_flag: false
     },
     {
         id: 21,
@@ -141,7 +156,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/terry.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/terry.png',
+        what_why_flag: false
     },
     {
         id: 22,
@@ -150,7 +166,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/tom.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/tom.png',
+        what_why_flag: false
     },
     {
         id: 23,
@@ -159,7 +176,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/tyra.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/tyra.png',
+        what_why_flag: false
     },
     {
         id: 24,
@@ -168,7 +186,8 @@ const teamData = [
         name: 'Lukos',
         modalTitle: 'NISHIL FALDU',
         modalInfo: '',
-        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/yagna.png'
+        thumbnail_url: 'https://2022campaign.s3.us-east-2.amazonaws.com/yagna.png',
+        what_why_flag: false
     }
 ]
 

@@ -52,7 +52,8 @@ function Modal(props) {
 						
 					</div>
 				</div>
-				<div 
+
+				{props.showFlag && <div 
 				// variants={staggerOne} 
 					className="Modal__info--wrp">
 					<h3 
@@ -73,7 +74,20 @@ function Modal(props) {
 					{/* <hr 
 					// variants={modalFadeInUpVariants} 
 					className="Modal__info--line"/> */}
-				</div>
+				</div>}
+				{!props.showFlag && <div 
+				// variants={staggerOne} 
+					className="Modal__info--wrp">
+					<h3 
+					// variants={modalFadeInUpVariants} 
+					className="Modal__info--title">{props.modalTitle}</h3>
+					<p 
+					// variants={modalFadeInUpVariants} 
+					className="Modal__info--description">{props.modalInfo}</p>
+					{/* <hr 
+					// variants={modalFadeInUpVariants} 
+					className="Modal__info--line"/> */}
+				</div>}
 			</div>
 		</div>)
 			}
