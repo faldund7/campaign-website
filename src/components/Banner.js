@@ -12,7 +12,7 @@ function Banner() {
          style={{
             backgroundSize: "cover",
              backgroundImage: `url(
-              "https://2022campaign.s3.us-east-2.amazonaws.com/banner_video.mp4"
+              "https://storage.googleapis.com/campaign-website/assets/banner_video.mp4"
          )`,
         backgroundPosition: "center center",
       }}
